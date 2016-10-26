@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Anaconda",
+		"Colorsublime",
+		"Djaneiro",
+		"DocBlockr",
+		"Emmet",
+		"ESLint",
+		"Git",
+		"GitGutter",
+		"Origami",
+		"Package Control",
+		"requirementstxt",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeREPL",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark",
+		"Vintageous"
+	]
+}
