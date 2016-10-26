@@ -46,4 +46,20 @@ fi;
 # You could just use `-g` instead, but I like being explicit
 complete -W "NSGlobalDomain" defaults;
 source ~/.git-completion.bash
-source ~/.git-prompt.sh
+source ~/.git-prompt.sh  source '/Users/taihuynh/Code/google-cloud-sdk/path.bash.inc'
+source '/Users/taihuynh/Code/installs/google-cloud-sdk/completion.bash.inc'
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f /Users/taihuynh/Code/installs/google-cloud-sdk/path.bash.inc ]; then
+  source '/Users/taihuynh/Code/installs/google-cloud-sdk/path.bash.inc'
+fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f /Users/taihuynh/Code/installs/google-cloud-sdk/completion.bash.inc ]; then
+  source '/Users/taihuynh/Code/installs/google-cloud-sdk/completion.bash.inc'
+fi
+
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx

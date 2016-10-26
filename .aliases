@@ -8,7 +8,18 @@ alias ~="cd ~"
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias z="cd /Users/taihuynh/Code/zendesk"
+alias zd="cd /Users/taihuynh/Code/zendesk"
+alias zp="cd /Users/taihuynh/Code/zopim"
+alias co="cd /Users/taihuynh/Code/mooc/js_course"
+alias frontend="zd && cd meshim-frontend"
+alias public="zd && cd meshim-public"
+alias gcsdk="cd /Users/taihuynh/Code/installs/google-cloud-sdk"
+alias sl=ls
+alias ls='ls -G'        # Compact view, show colors
+alias la='ls -AF'       # Compact view, show hidden
+alias ll='ls -al'
+alias l='ls -a'
+alias l1='ls -1'
 alias h="history"
 # Clean up LaunchServices to remove duplicates in the “Open With” menu
 alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
